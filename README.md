@@ -1,6 +1,6 @@
 # playit-docker
 
-[Docker](https://img.shields.io/docker/cloud/build/embeddedt/playit?label=Docker&style=flat)](https://hub.docker.com/r/embeddedt/playit/builds)
+![Docker Pulls](https://img.shields.io/docker/pulls/embeddedt/playit)
 
 Simple Docker image that allows the [playit.gg](https://playit.gg/) agent to be
 used in a Docker container.
@@ -8,7 +8,7 @@ used in a Docker container.
 This is intended to be used by server admins already using a Dockerized Minecraft
 server. Most casual users are probably better off running the playit agent directly.
 
-## Usage with Docker Compose and [docker-minecraft-server](https://github.com/itzg/docker-minecraft-server)
+## Example usage with Docker Compose and [docker-minecraft-server](https://github.com/itzg/docker-minecraft-server)
 
 1. Create `docker-compose.yml` with the following contents:
 
